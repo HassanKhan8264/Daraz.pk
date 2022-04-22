@@ -2,7 +2,34 @@
     font-family:roboto ;
     src: url(./fontss/RobotoMono-Medium.ttf);
 }
-    
+
+.middleimage{
+    /* border: 1px solid red; */
+}
+.bg{
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0px;
+    height: 366px;
+    width: 192px;
+    animation-name: mymove;
+    animation-duration:17s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */
+    animation-timing-function: linear;
+    /* animation-fill-mode: none; */
+    /* animation: mymove; */
+}
+@keyframes mymove {
+    25%{background-color: aquamarine;}
+    50%{background-color: darkcyan;}
+    75%{background-color: purple;}
+    100%{background-color: #f57223;}
+    /* 100%{background-color: #f57224;} */
+}
+
+
 
 body{
     margin:0;
@@ -232,6 +259,7 @@ body{
 }
 .hvr:hover{
     background-color:#f5f5f5;
+    color: royalblue;
     /* border:1px solid rgb(157, 177, 235);  */
 }
 .hvr:hover> .none{
@@ -239,11 +267,12 @@ body{
     display: block;
     position: absolute;
     top: -1px;
-    left: 170px;
+    left:200px;
     padding: 4px;
     height: 366px;
     /* border: 1px solid red; */
-    background-color: white; 
+    background-color: white;
+    color: black; 
     z-index: 10;   
 }
 .midimg2{
@@ -767,3 +796,411 @@ body{
 .midpart{
     background-color: #f5f5f5;
 }
+  @media screen and (max-width:1349px) {
+    .contain ul{
+        height: 366px;
+        margin: 0px;
+        /* border: 1px solid red; */
+
+        padding: 0.9px;
+    }
+}  
+@media screen and  (min-width:1200px), (max-width:1200px){
+    .contain ul{
+        /* border: 1px solid red; */
+        height: 385px;
+        margin: 0px;
+
+        padding: 0px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .contain,.contain ul{
+        /* border: 1px solid red; */
+        display: none;
+    }
+}
+@media screen and (max-width:1200px) {
+    .header,.header ul{
+        /* border: 1px solid red; */
+        width: 100%;
+
+    }
+    .header ul{
+        margin: 0 300px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .header,.header ul{
+        /* border: 1px solid red; */
+        width: 100%;
+
+    }
+    .header ul{
+        margin: 0 100px;
+    }
+}
+@media screen and (max-width:786px) {
+    .header,.header ul{
+        /* border: 1px solid red; */
+        display: none;
+
+    }
+    .header ul {
+        display: none;
+    }
+}
+@media screen and (max-width:786px) {
+    .midnav{
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+
+
+    }
+    .logo{
+        width: 20%;
+        border: 1px solid red;
+        margin-left: -2px;
+    }
+    #input{
+        border: 1px solid red;
+        margin-left: 10px;
+        width: 90%;
+        
+    }
+    #img3{
+        display: none;
+
+    }
+}
+@media screen and (max-width:600px) {
+    .midnav{
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+
+
+    }
+    .logo{
+        width: 30%;
+        border: 1px solid red;
+        margin-left: -2px;
+    }
+    #input{
+        border: 1px solid red;
+        margin-left: 10px;
+        width: 90%;
+        
+    }
+    #img3{
+        display: none;
+
+    }
+    #trolley{
+        display: none;
+    }
+}
+@media screen and (max-width:480px) {
+    .midnav{
+    width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+
+
+    }
+    .logo{
+        width: 30%;
+        border: 1px solid red;
+        margin-left: -2px;
+    }
+    #input{
+        border: 1px solid red;
+        margin-left: 10px;
+        width: 90%;
+        
+    }
+    #img3{
+        display: none;
+
+    }
+}
+@media screen and (max-width:360px) {
+    .midnav{
+    width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+
+
+    }
+    .logo{
+        width: 20%;
+        border: 1px solid red;
+        margin-left: -2px;
+        display: none;
+    }
+    #input{
+        border: 1px solid red;
+        margin-left: 10px;
+        width: 100%;
+        
+    }
+    #img3{
+        display: none;
+
+    }
+}
+@media screen and (max-width:1024px) {
+
+    .middleimage{
+        border: 1px solid red;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:786px) {
+    .middleimage{
+    width: 100%;
+    border: 1px solid red;
+    margin: 40px auto;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .middleimage{
+        display: none;
+    }
+
+}
+@media screen and (max-width:786px) {
+    .midimg2{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .midimg2{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .midimg2{
+        display: none;
+    }
+
+}
+@media screen and (max-width:1349px) {
+    .cards,.sale{
+        border: 1px solid red;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:1349px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 78%;
+    }
+
+}
+@media screen and (max-width:1349px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:786px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 60%;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .showmore>.number{
+        border: 1px solid red;
+        width: 60%;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .showmore>.number{
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .cards,.sale{
+        width: 100% ;
+        /* border: 1px solid green; */
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .card-title,.card-text,.card-body,.card,.card img{
+        width: inherit;
+        border: 1px solid red;
+    }
+
+}
+@media screen and (max-width:786px) {
+    .card-title,small,#orange{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .card-text,.card-body,.card{
+        display: none;
+        height: 150px;
+        border: 1px solid red;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .sale>.cards,.sale>.cards>.card-text{
+        display:contents;
+        width: 280px;
+        height: 200px;
+        border: 1px solid red;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .sale>.cards,.sale>.cards>.card-text{
+        display:contents;
+        width: 290px;
+        margin: 10px auto;
+        height: 350px;
+        border: 1px solid red;
+    }
+
+}
+
+@media screen and (max-width:1349px) {
+    .darazmall{
+        border: 1px solid red;
+    }
+    .items{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:1349px) {
+    .cats{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:786px) {
+    .foot{
+        border: 1px solid red;
+        width: 100%;
+    }
+    .footer1{
+        margin: 0px;
+    }
+    .footer1>.list1{
+        width: 40%;
+        border: 1px solid red;
+    }
+    .footer1>.list2{
+        width: 40%;
+        border: 1px solid red;
+    }
+    .footer1>.list3{
+        width:inherit;
+        border: 1px solid red;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .foot{
+        border: 1px solid red;
+        width: 100%;
+    }
+    .footer1{
+        margin: 0px;
+    }
+    .footer1>.list1{
+        width:50%;
+        border: 1px solid red;
+    }
+    .footer1>.list2{
+        width: 50%;
+        border: 1px solid red;
+    }
+    .footer1>.list3{
+        width:inherit;
+        border: 1px solid red;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .foot{
+        border: 1px solid red;
+        width: 100%;
+    }
+    .footer1{
+        margin: 0px;
+    }
+    .footer1>.list1{
+        width: 50%;
+        border: 1px solid red;
+    }
+    .footer1>.list2{
+        width: 50%;
+        border: 1px solid red;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .list3{
+        display: none;
+        /* border: 1px solid red; */
+    }
+
+}
+@media screen and (max-width:480px) {
+    .footer2{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .four{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
